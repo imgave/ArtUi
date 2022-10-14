@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+body {
+  opacity: 0.75;
+  background-image: url("https://media.tenor.com/TfdW6RPca94AAAAd/david-statue.gif");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: cover;
+}
+
+.frame {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  background-color: #fff;
+  border: 20px groove gold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: right;
+  margin: 10px;
+  height: 800px;
+  width: 400px;
+}
+button {
+  border: 5px groove gold;
+  font-size: 24px;
+}
+button:active {
+  transform: scale(1.5);
+}
+
+#picFrame {
+  display: flex ;
+  max-width: 90%;
+  max-height: 90%;
+}
